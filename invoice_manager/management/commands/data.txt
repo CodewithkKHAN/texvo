@@ -1,0 +1,1017 @@
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 87438 06893
+shipping_address: Virus 2k22
+
++91 87438 06893
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.568
+modified_date: 2024-08-09 08:17:07.964
+unique_key_client: 56de6bdb8d73b1011722747526069
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 12
+name: Maa Jasodha Cam/ 34 Number/Ashoka
+contact_person_name: Maa Jasodha Cam/ 34 Number/Ashoka
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 81788 26959
+shipping_address: Maa Jasodha Cam/ 34 Number/Ashoka
+
++91 81788 26959
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.569
+modified_date: 2024-08-09 08:17:07.964
+unique_key_client: 56de6bdb8d73b1011722747624056
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 13
+name: Manoj/ 15 Number
+contact_person_name: Manoj/ 15 Number
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 84472 91824
+shipping_address: Manoj/ 15 Number
+
++91 84472 91824
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.571
+modified_date: 2024-08-09 08:17:07.964
+unique_key_client: 56de6bdb8d73b1011722799578047
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 14
+name: Ankesh/35 Number
+contact_person_name: 
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 9800420723
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.572
+modified_date: 2024-08-09 08:17:07.964
+unique_key_client: 03140fb9a2e59e0b1723191410522
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 15
+name: Irshad/18 Number/ Irfan Bhai
+contact_person_name: Irshad/18 Number/ Irfan Bhai
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 95608 35607
+shipping_address: Irshad/18 Number/ Irfan Bhai
+
++91 95608 35607
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.573
+modified_date: 2024-08-11 19:04:06.457
+unique_key_client: 56de6bdb8d73b1011723403043762
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 16
+name: Ratan/ Dukan
+contact_person_name: Ratan/ Dukan
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 750-302-9321
+shipping_address: Ratan/ Dukan
+
+750-302-9321
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.574
+modified_date: 2024-08-12 11:50:49.923
+unique_key_client: 56de6bdb8d73b1011723463448019
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 17
+name: Arip Dada New
+contact_person_name: Arip Dada New
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 845-930-4749
+shipping_address: Arip Dada New
+
+845-930-4749
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.577
+modified_date: 2024-08-13 18:12:37.004
+unique_key_client: 56de6bdb8d73b1011723572755841
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 18
+name: Avijit Goswami
+contact_person_name: Avijit Goswami
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 80764 34873
+shipping_address: Avijit Goswami
+
++91 80764 34873
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.578
+modified_date: 2024-08-22 06:05:10.870
+unique_key_client: 03140fb9a2e59e0b1724306709998
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 19
+name: Nisharul
+contact_person_name: NISHARUL
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 85868 45039
+shipping_address: NISHARUL
+
+971-194-9791
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.579
+modified_date: 2024-09-07 05:56:43.197
+unique_key_client: 03140fb9a2e59e0b1725688602403
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 20
+name: Khokon Dada
+contact_person_name: Khokon Dada
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 98730 94682
+shipping_address: Khokon Dada
+
++91 98730 94682
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.580
+modified_date: 2024-09-07 06:01:24.881
+unique_key_client: 03140fb9a2e59e0b1725688883922
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 21
+name: Badal Pgp
+contact_person_name: Badal Pgp
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 88516 77975
+shipping_address: Badal Pgp
+
++91 88516 77975
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.581
+modified_date: 2024-09-07 06:02:36.565
+unique_key_client: 03140fb9a2e59e0b1725688955654
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 22
+name: Ramesh/ Imran
+contact_person_name: Ramesh/ Imran
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 97111 78387
+shipping_address: Ramesh/ Imran
+
+97111 78387
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.582
+modified_date: 2024-09-10 19:01:39.282
+unique_key_client: 03140fb9a2e59e0b1725994897959
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 23
+name: Chanchal / 12 Number
+contact_person_name: Chanchal / 12 Number
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +918586044558
+shipping_address: Chanchal / 12 Number
+
++918586044558
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.583
+modified_date: 2024-09-13 05:10:16.014
+unique_key_client: 03140fb9a2e59e0b1726204213296
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 24
+name: Guru Bhai/ 12 Number
+contact_person_name: Guru Bhai/ 12 Number
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 80760 50234
+shipping_address: Guru Bhai/ 12 Number
+
++91 80760 50234
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.584
+modified_date: 2024-09-19 09:08:43.749
+unique_key_client: 03140fb9a2e59e0b1726736922299
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 25
+name: Samerul/Dilshad
+contact_person_name: Samerul/Dilshad
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 79088 47505
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.585
+modified_date: 2024-11-14 05:23:36.013
+unique_key_client: 03140fb9a2e59e0b1731561812590
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 26
+name: Ali Chacha/Dilshad
+contact_person_name: Ali Chacha/Dilshad
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 99995 75427
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.586
+modified_date: 2024-11-14 05:23:47.116
+unique_key_client: 03140fb9a2e59e0b1731561824746
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 27
+name: Saurav/Dilshad
+contact_person_name: Saurav/Dilshad
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 72890 06618
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.587
+modified_date: 2024-11-14 05:38:41.053
+unique_key_client: 03140fb9a2e59e0b1731562718566
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 28
+name: Abdur/ Dilshad
+contact_person_name: Abdur/ Dilshad
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 85879 39515
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.588
+modified_date: 2024-11-14 05:38:52.149
+unique_key_client: 03140fb9a2e59e0b1731562729877
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 29
+name: Harman/ Happy/ Dilshad
+contact_person_name: Harman/ Happy/ Dilshad
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +917533099892
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.589
+modified_date: 2024-11-14 05:59:17.031
+unique_key_client: 03140fb9a2e59e0b1731563954645
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 30
+name: Aniket/2020
+contact_person_name: Aniket/2020
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 88104 04022
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.590
+modified_date: 2024-11-24 20:01:32.020
+unique_key_client: 03140fb9a2e59e0b1732478489789
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 31
+name: Bhashwati
+contact_person_name: Bhashwati
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 99719 71211
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.592
+modified_date: 2024-11-24 20:18:50.909
+unique_key_client: 03140fb9a2e59e0b1732479527309
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 32
+name: Preeti Ghosh/ Spanish Teacher
+contact_person_name: Preeti Ghosh/ Spanish Teacher
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 72178 91578
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.595
+modified_date: 2024-11-29 10:34:14.946
+unique_key_client: 03140fb9a2e59e0b1732876450185
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 33
+name: Ankesh/35 Nmbr
+contact_person_name: Ankesh/35 Nmbr
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +919800420723
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.601
+modified_date: 2024-12-12 18:32:39.738
+unique_key_client: 03140fb9a2e59e0b1734028357186
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 34
+name: Rahul Kumar/Ajmal Khan
+contact_person_name: Rahul Kumar/Ajmal Khan
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 91175 74455
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.602
+modified_date: 2025-01-16 11:09:18.964
+unique_key_client: 03140fb9a2e59e0b1737025756357
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 35
+name: Qaazi/dilshad
+contact_person_name: 
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 9871286301
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.603
+modified_date: 2025-02-17 13:11:12.967
+unique_key_client: 03140fb9a2e59e0b1739797870291
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 36
+name: Baishali ghosh
+contact_person_name: 
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 9873533381
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 0
+device_created_date: 2025-04-20 09:55:22.604
+modified_date: 2025-03-10 12:10:17.489
+unique_key_client: ClientSupplier@1741608615014aa76eb1epk5o3a61b
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 37
+name: Saurav Pc Market Shadipur
+contact_person_name: Saurav Pc Market Shadipur
+address_line1: Shadipur
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 920-553-7394
+shipping_address: Saurav Pc Market Shadipur
+
+920-553-7394
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.963
+modified_date: 2024-08-09 08:17:08.294
+unique_key_client: 56de6bdb8d73b1011720548120238
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 38
+name: Krishna Laptop Repair/Shadipur
+contact_person_name: Krishna Laptop Repair/Shadipur
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 11 4557 8594
+shipping_address: Krishna Laptop Repair/Shadipur
+
++91 11 4557 8594
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.967
+modified_date: 2024-08-09 08:17:08.294
+unique_key_client: 56de6bdb8d73b1011721715842520
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 39
+name: Archana/Nechra/Nehru Place
+contact_person_name: Archana/Nechra/Nehru Place
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 977-364-0315
+shipping_address: Archana/Nechra/Nehru Place
+
+977-364-0315
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.977
+modified_date: 2024-09-07 06:01:44.245
+unique_key_client: 03140fb9a2e59e0b1725688903420
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 40
+name: Roshni 2k21
+contact_person_name: Roshni 2k21
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 91705 08002
+shipping_address: Roshni 2k21
+
++91 91705 08002
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.980
+modified_date: 2024-09-10 07:07:29.898
+unique_key_client: 03140fb9a2e59e0b1725952048698
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 41
+name: Roshni 2k21
+contact_person_name: Roshni 2k21
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 91705 08002
+shipping_address: Roshni 2k21
+
++91 91705 08002
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.983
+modified_date: 2024-09-10 18:59:06.084
+unique_key_client: 56de6bdb8d73b1011725762598011
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 42
+name: Tech Junction
+contact_person_name: 
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 7011110207
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.985
+modified_date: 2024-09-10 18:59:06.084
+unique_key_client: 56de6bdb8d73b1011725762740659
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 43
+name: Tanya Cabletronics/ Nehru Place
+contact_person_name: 
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 9810538488
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.988
+modified_date: 2024-09-28 18:05:19.551
+unique_key_client: 03140fb9a2e59e0b1727546713033
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 44
+name: Amazon
+contact_person_name: 
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.992
+modified_date: 2024-10-07 05:13:42.434
+unique_key_client: 56de6bdb8d73b1011728278023970
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 45
+name: Old Used Laptops
+contact_person_name: Old Used Laptops
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 98100 12668
+shipping_address: Old Used Laptops
+
++91 98100 12668
+
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.994
+modified_date: 2024-10-12 05:39:14.545
+unique_key_client: 03140fb9a2e59e0b1728711553709
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 46
+name: Mangal Infotech
+contact_person_name: 
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: 
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 1
+associate_type: 1
+device_created_date: 2025-04-20 09:55:22.996
+modified_date: 2024-11-05 15:04:17.045
+unique_key_client: ClientSupplier@17308190143629bc5b527rbmbtmdtf
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+<class 'dict'>
+_id: 47
+name: Mangal Infotech/Laxmi Nagar
+contact_person_name: 
+address_line1: 
+address_line2: 
+address_line3: 
+business_detail: 
+business_id: 
+email: 
+hidden: False
+category_id: 0
+number: +91 98100 12668
+shipping_address: 
+server_Id: 0
+pushflag: 3
+org_Id: 61545
+enabled: 0
+associate_type: 1
+device_created_date: 2025-04-20 09:55:23.000
+modified_date: 2024-11-05 15:05:35.997
+unique_key_client: ClientSupplier@1730819134587bf31ba84ozidh6f7o
+opening_balance: 0
+opening_balance_date: 
+remaining_opening_balance: 0
+opening_balance_type: 1
+venvAbcs-MacBook-Pro:TEXVO abc$ /Users/abc/Documents/TEXVO/venv/bin/python /Users/abc/Documents/TEXVO/texvo/invoice_manager/management/commands/testfile.py
+<class 'dict'> OtherData
+<class 'dict'> InvoiceTBLs
+{'ServerOrgId': 61545, 'ServerUserId': 65530, 'NewFormatBackup': 1}
+venvAbcs-MacBook-Pro:TEXVO abc$ 

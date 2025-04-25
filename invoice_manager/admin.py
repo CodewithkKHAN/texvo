@@ -3,6 +3,9 @@ from django.contrib.admin import AdminSite
 from django.urls import path
 from django.template.response import TemplateResponse
 from django.db.models import Sum
+from django.db.models.functions import TruncMonth
+from datetime import datetime
+import json
 from .models import (
     Client, Supplier, Product, Invoice, InvoiceItem, Payment, CreditNote, 
     Service, InvoiceServiceItem, Expense
@@ -22,12 +25,45 @@ class InvoiceManagerAdminSite(AdminSite):
         return custom_urls + urls
 
     def dashboard_view(self, request):
-        # Example metrics
+        monthly_data = (
+            Payment.objects
+            .annotate(month=TruncMonth('date'))
+            .values('month')
+            .annotate(total=Sum('paid_amount'))
+            .order_by('month')
+        )
+        labels = [entry['month'].strftime('%B') for entry in monthly_data]
+        totals = [float(entry['total']) for entry in monthly_data]
+
+        top_products = (
+            InvoiceItem.objects
+            .values('product__name')
+            .annotate(total_sold=Sum('quantity'))
+            .order_by('-total_sold')[:5]
+        )
+
+        unpaid_total = Invoice.objects.filter(balance__gt=0).aggregate(total=Sum('balance'))['total'] or 0
+        unpaid_count = Invoice.objects.filter(balance__gt=0).count()
+
+        upcoming_expenses = Expense.objects.filter(recurring=True, date__gte=datetime.today()).order_by('date')[:5]
+
         context = {
             'total_clients': Client.objects.count(),
             'total_invoices': Invoice.objects.count(),
             'total_payments': Payment.objects.aggregate(total_paid=Sum('paid_amount'))['total_paid'] or 0,
             'total_products': Product.objects.count(),
+            'labels': json.dumps(labels),
+            'totals': json.dumps(totals),
+            'cards': [
+                ("Total Clients", Client.objects.count(), 'admin:invoice_manager_client_changelist'),
+                ("Total Invoices", Invoice.objects.count(), 'admin:invoice_manager_invoice_changelist'),
+                ("Total Payments", Payment.objects.aggregate(total_paid=Sum('paid_amount'))['total_paid'] or 0, 'admin:invoice_manager_payment_changelist'),
+                ("Total Products", Product.objects.count(), 'admin:invoice_manager_product_changelist'),
+            ],
+            'top_products': top_products,
+            'unpaid_count': unpaid_count,
+            'unpaid_total': unpaid_total,
+            'upcoming_expenses': upcoming_expenses
         }
         return TemplateResponse(request, "admin/dashboard.html", context)
 
