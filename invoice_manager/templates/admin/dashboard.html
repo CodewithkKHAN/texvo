@@ -1,0 +1,48 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<canvas id="paymentsChart" width="400" height="200"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('paymentsChart').getContext('2d');
+    const paymentsChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['January', 'February', 'March', 'April'],
+            datasets: [{
+                label: 'Payments',
+                data: [1200, 1900, 3000, 5000],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+<h1>Dashboard Overview</h1>
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+    <div style="flex: 1; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
+        <h2><a href="{% url 'admin:invoice_manager_client_changelist' %}">Total Clients</a></h2>
+        <p>{{ total_clients }}</p>
+    </div>
+    <div style="flex: 1; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
+        <h2><a href="{% url 'admin:invoice_manager_invoice_changelist' %}">Total Invoices</a></h2>
+        <p>{{ total_invoices }}</p>
+    </div>
+    <div style="flex: 1; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
+        <h2><a href="{% url 'admin:invoice_manager_payment_changelist' %}">Total Payments</a></h2>
+        <p>${{ total_payments }}</p>
+    </div>
+    <div style="flex: 1; padding: 20px; border: 1px solid #ddd; border-radius: 5px;">
+        <h2><a href="{% url 'admin:invoice_manager_product_changelist' %}">Total Products</a></h2>
+        <p>{{ total_products }}</p>
+    </div>
+</div>
+{% endblock %}
