@@ -95,6 +95,14 @@ class Invoice(models.Model):
     balance = models.DecimalField(max_digits=12, decimal_places=2)  # Matches "Balance"
     ship_to = models.TextField(blank=True)  # Matches "Ship To"
     gross_amount = models.DecimalField(max_digits=12, decimal_places=2)  # Matches "Gross Amount"
+    PAYMENT_STATUS_CHOICES = [
+    ('paid', 'Paid'),
+    ('partial', 'Partially Paid'),
+    ('unpaid', 'Unpaid'),
+]
+
+    payment_status = models.CharField(max_length=20, choices=PAYMENT_STATUS_CHOICES, default='unpaid')
+
     def __str__(self):
         return f"Invoice {self.invoice_number} - {self.client}"
 
