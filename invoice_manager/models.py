@@ -86,8 +86,8 @@ class Invoice(models.Model):
     due_date = models.DateField(null=True, blank=True)  # Matches "Due Date"
     reference = models.CharField(max_length=100, blank=True)  # Matches "Ref. :"
     amount = models.DecimalField(max_digits=12, decimal_places=2)  # Matches "Amount"
-    discount_rate = models.DecimalField(max_digits=5, decimal_places=2)  # Matches "Discount Rate"
-    discount = models.DecimalField(max_digits=10, decimal_places=2)  # Matches "Discount"
+    discount_rate = models.DecimalField(max_digits=5, decimal_places=2,null=True)  # Matches "Discount Rate"
+    discount = models.DecimalField(max_digits=10, decimal_places=2,null=True)  # Matches "Discount"
     tax_rate = models.DecimalField(max_digits=5, decimal_places=2)  # Matches "Tax Rate"
     tax_amount = models.DecimalField(max_digits=10, decimal_places=2)  # Matches "Tax Amount"
     shipping_charges = models.DecimalField(max_digits=10, decimal_places=2)  # Matches "Shipping Charges"
@@ -118,10 +118,10 @@ class InvoiceItem(models.Model):
     measurement_unit = models.CharField(max_length=100)
     quantity = models.PositiveIntegerField()
     rate = models.DecimalField(max_digits=10, decimal_places=2)
-    discount_rate = models.DecimalField(max_digits=5, decimal_places=2)
-    discount = models.DecimalField(max_digits=10, decimal_places=2)
-    tax = models.DecimalField(max_digits=5, decimal_places=2)
-    tax_amount = models.DecimalField(max_digits=10, decimal_places=2)
+    discount_rate = models.DecimalField(max_digits=5, decimal_places=2,null=True)
+    discount = models.DecimalField(max_digits=10, decimal_places=2,null=True)
+    tax = models.DecimalField(max_digits=5, decimal_places=2,null=True)
+    tax_amount = models.DecimalField(max_digits=10, decimal_places=2,null=True)
     amount = models.DecimalField(max_digits=12, decimal_places=2)
     description = models.TextField(blank=True)
     def __str__(self):
@@ -134,7 +134,7 @@ class InvoiceServiceItem(models.Model):
     quantity = models.PositiveIntegerField(default=1)
     rate = models.DecimalField(max_digits=10, decimal_places=2)
     amount = models.DecimalField(max_digits=12, decimal_places=2)
-    discount = models.DecimalField(max_digits=10, decimal_places=2, default=0)
+    discount = models.DecimalField(max_digits=10, decimal_places=2, default=0,null=True)
     tax = models.DecimalField(max_digits=5, decimal_places=2, default=0)
     tax_amount = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     description = models.TextField(blank=True)
