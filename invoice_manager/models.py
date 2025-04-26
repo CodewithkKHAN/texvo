@@ -94,7 +94,7 @@ class Invoice(models.Model):
     adjustment = models.DecimalField(max_digits=10, decimal_places=2)  # Matches "Adjustment"
     balance = models.DecimalField(max_digits=12, decimal_places=2)  # Matches "Balance"
     ship_to = models.TextField(blank=True)  # Matches "Ship To"
-    gross_amount = models.DecimalField(max_digits=12, decimal_places=2)  # Matches "Gross Amount"
+    gross_amount = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)  # Allow NULL values  # Matches "Gross Amount"
     PAYMENT_STATUS_CHOICES = [
     ('paid', 'Paid'),
     ('partial', 'Partially Paid'),

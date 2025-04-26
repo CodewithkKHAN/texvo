@@ -20,11 +20,22 @@ Including another URLconf
 # urlpatterns = [
 #     path('admin/', admin.site.urls),
 # ]
-from django.urls import path
+# from django.urls import path, include
+# from django.shortcuts import redirect
+# from invoice_manager.admin import admin_site
+
+# urlpatterns = [
+#     path('', lambda request: redirect('admin/dashboard/')),  # Redirect root URL to the dashboard
+#     path('admin/', admin_site.urls),  # Use the custom admin site
+#     path('', include('invoice_manager.urls')),
+# ]
+
+from django.urls import path, include
 from django.shortcuts import redirect
 from invoice_manager.admin import admin_site
 
 urlpatterns = [
     path('', lambda request: redirect('admin/dashboard/')),  # Redirect root URL to the dashboard
     path('admin/', admin_site.urls),  # Use the custom admin site
+path('', include('invoice_manager.urls')),
 ]
