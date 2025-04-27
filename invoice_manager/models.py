@@ -143,12 +143,15 @@ class InvoiceServiceItem(models.Model):
 class Payment(models.Model):
     invoice = models.ForeignKey(Invoice, on_delete=models.CASCADE)
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
-    contact_person = models.CharField(max_length=255)
+    contact_person = models.CharField(max_length=255, blank=True, null=True)
     transaction_no = models.CharField(max_length=100)
     paid_amount = models.DecimalField(max_digits=12, decimal_places=2)
-    date = models.DateField()
+    payment_date = models.DateField()  # 🔥 Correct: replaces 'date'
+    payment_mode = models.CharField(max_length=50, default='Cash')  # 🔥 New: Cash, UPI, Card, etc.
+
     def __str__(self):
         return f"Payment {self.transaction_no} - {self.client}"
+
     
 # --- Credit Notes ---
 class CreditNote(models.Model):
