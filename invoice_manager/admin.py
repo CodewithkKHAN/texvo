@@ -27,7 +27,8 @@ class InvoiceManagerAdminSite(AdminSite):
     def dashboard_view(self, request):
         monthly_data = (
             Payment.objects
-            .annotate(month=TruncMonth('date'))
+            .annotate(month=TruncMonth('payment_date'))
+
             .values('month')
             .annotate(total=Sum('paid_amount'))
             .order_by('month')

@@ -1,18 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>POS - TEXVO</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</head>
-<body>
+{% extends "admin/base_site.html" %}
 
-<div class="container mt-4">
-    <h1 class="mb-4">Point of Sale (POS)</h1>
+{% block content %}
+<style>
+    body {
+        background: linear-gradient(120deg, #f0f4f8, #d9e2ec);
+    }
+    .pos-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+    .card {
+        background: white;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        transition: 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .cart-table th, .cart-table td {
+        vertical-align: middle;
+    }
+    .btn-add, .btn-submit {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        transition: background 0.3s;
+    }
+    .btn-add:hover, .btn-submit:hover {
+        background-color: #45a049;
+    }
+</style>
 
-    <div class="card p-3 mb-4">
+<div class="pos-container">
+    <h1 class="text-center mb-4">Point of Sale (POS)</h1>
+
+    <div class="card">
         <h3>Select Client</h3>
         <select id="clientSelect" class="form-control">
             {% for client in clients %}
@@ -21,23 +48,23 @@
         </select>
     </div>
 
-    <div class="card p-3 mb-4">
+    <div class="card">
         <h3>Add Product</h3>
-        <div class="d-flex">
-            <select id="productSelect" class="form-control me-2" style="min-width: 250px;">
+        <div class="d-flex flex-wrap gap-2">
+            <select id="productSelect" class="form-control" style="min-width: 250px;">
                 {% for product in products %}
                     <option value="{{ product.id }}" data-rate="{{ product.sale_rate }}">{{ product.name }} (Stock: {{ product.current_stock }})</option>
                 {% endfor %}
             </select>
-            <input type="number" id="rateInput" class="form-control me-2" placeholder="Rate" min="0" value="0">
-            <input type="number" id="quantityInput" class="form-control me-2" placeholder="Quantity" min="1" value="1">
-            <button class="btn btn-success" onclick="addProduct()">Add</button>
+            <input type="number" id="rateInput" class="form-control" placeholder="Rate" min="0" value="0">
+            <input type="number" id="quantityInput" class="form-control" placeholder="Quantity" min="1" value="1">
+            <button class="btn btn-add" onclick="addProduct()">Add</button>
         </div>
     </div>
 
-    <div class="card p-3 mb-4">
+    <div class="card">
         <h3>Cart</h3>
-        <table class="table table-bordered" id="cartTable">
+        <table class="table table-striped cart-table">
             <thead>
                 <tr>
                     <th>Product</th>
@@ -47,30 +74,23 @@
                     <th>Action</th>
                 </tr>
             </thead>
-            <tbody></tbody>
+            <tbody id="cartBody"></tbody>
         </table>
-
         <h4 class="text-end">Total: ₹ <span id="totalAmount">0</span></h4>
     </div>
 
-    <div class="card p-3 mb-4">
+    <div class="card">
         <h3>Payment</h3>
         <input type="number" id="paymentInput" class="form-control" placeholder="Enter Payment Amount" min="0">
     </div>
 
     <div class="text-center">
-        <button class="btn btn-primary btn-lg" onclick="submitInvoice()">Submit Sale</button>
+        <button class="btn btn-submit btn-lg" onclick="submitInvoice()">Submit Sale</button>
     </div>
 </div>
 
 <script>
     let cart = [];
-
-    document.getElementById('productSelect').addEventListener('change', function() {
-        const selectedOption = this.options[this.selectedIndex];
-        const defaultRate = parseFloat(selectedOption.dataset.rate);
-        document.getElementById('rateInput').value = defaultRate;
-    });
 
     function addProduct() {
         const productSelect = document.getElementById('productSelect');
@@ -84,12 +104,7 @@
         const quantity = parseInt(quantityInput.value);
 
         if (!quantity || quantity <= 0) {
-            Swal.fire('Error', 'Enter a valid quantity.', 'error');
-            return;
-        }
-
-        if (!rate || rate <= 0) {
-            Swal.fire('Error', 'Enter a valid rate.', 'error');
+            alert('Enter a valid quantity.');
             return;
         }
 
@@ -99,13 +114,13 @@
     }
 
     function renderCart() {
-        const tbody = document.querySelector('#cartTable tbody');
-        tbody.innerHTML = '';
+        const cartBody = document.getElementById('cartBody');
+        cartBody.innerHTML = '';
 
         let total = 0;
         cart.forEach((item, index) => {
             total += item.amount;
-            tbody.innerHTML += `
+            cartBody.innerHTML += `
                 <tr>
                     <td>${item.productName}</td>
                     <td>₹${item.rate.toFixed(2)}</td>
@@ -126,12 +141,13 @@
 
     function submitInvoice() {
         if (cart.length === 0) {
-            Swal.fire('Error', 'Cart is empty!', 'error');
+            alert('Cart is empty!');
             return;
         }
 
         const clientId = document.getElementById('clientSelect').value;
         const paymentAmount = document.getElementById('paymentInput').value;
+
         const items = cart.map(item => `${item.productId},${item.quantity},${item.rate}`);
 
         fetch("{% url 'create_invoice_from_pos' %}", {
@@ -149,23 +165,15 @@
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                Swal.fire({
-                    icon: 'success',
-                    title: 'Sale Completed!',
-                    text: 'Invoice ID: ' + data.invoice_id,
-                    showConfirmButton: true
-                }).then(() => {
-                    window.location.reload();
-                });
+                alert('Sale Completed! Invoice ID: ' + data.invoice_id);
+                window.location.reload();
             } else {
-                Swal.fire('Error', data.error, 'error');
+                alert('Error: ' + data.error);
             }
         })
         .catch(error => {
-            Swal.fire('Oops...', 'Something went wrong: ' + error, 'error');
+            alert('Something went wrong: ' + error);
         });
     }
 </script>
-
-</body>
-</html>
+{% endblock %}
