@@ -1,0 +1,19 @@
+extends:
+  - eslint:recommended
+  - plugin:jest/recommended
+env:
+  browser: true
+  jest/globals: true
+settings:
+  react:
+    pragma: React
+plugins:
+  - jest
+rules:
+  complexity:
+    - error
+    - 10
+  no-await-in-loop: warn
+  no-eval: error
+  no-implied-eval: error
+  prefer-promise-reject-errors: warn
